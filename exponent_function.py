@@ -3,7 +3,7 @@ def exponent_power(base_num, power_num):
     for index in range(power_num):
         Result = Result * base_num
     return Result
-print(exponent_power(2, 2))
+print(exponent_power(2, 3))
 
 
 
