@@ -1,5 +1,6 @@
-i = 100
-while i<=100:
+i = 1
+n = 100
+while i<=n:
     if i%2 == 0 and i%5 == 0:
         print(i)
     i = i + 1
