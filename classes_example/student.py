@@ -3,6 +3,7 @@ from freecodecamp.classes_example.classes_and_objects import Student #importing 
 student1 = Student("Jim", "Business", 2.1, False)
 student2 = Student("Tom", "Finance", 4, True)
 
+print(Student.age)
 print(student1.name)
 print(student1.major)
 

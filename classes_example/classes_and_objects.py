@@ -5,6 +5,7 @@
 # My definition of object = Actual values which are passed into a class
 
 class Student: #in a class__init__ function contains an argument self
+    age = 5
     def __init__(self, name, major, gpa, is_on_probation):
         self.name = name
         self.major = major
