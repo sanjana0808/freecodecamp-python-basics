@@ -6,3 +6,14 @@ def factorial(x):
     return y
 
 print(factorial(3))
+
+# using for loop
+
+def factorial(y):#4*3*2*1
+    i = y
+    x = 1
+    for j in range(y):
+        x= x*i
+        i = i -1
+    return x
+print(factorial(4))
